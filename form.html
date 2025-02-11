@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียน</title>
+</head>
+<body>
+    <h1 align="center">แบบฟอร์มลงทะเบียน</h1>
+
+    <div>
+        <form id="form1" align="center">
+            <!-- input text name -->
+            <label for="name">ชื่อ-นามสกุล</label>
+             <input type="text" id="textname" placeholder="ป้อนชื่อ-นามสกุล"
+             autofocus="autofocus" maxlength="50" required>
+             <br>
+
+             <!-- input text address -->
+             <label for="address">ที่อยู่</label>
+             <input type="text" id="address" placeholder="ป้อนที่อยู่ปัจจุบัน"
+             maxlength="100"required>
+             <br>
+
+             <!-- input birthday -->
+             <label for="birthday">วันเกิด</label>
+             <input type="date" id="birthday" placeholder="เลือกกันเกิด">
+             <!-- input sex selection -->
+             <label for="srx">เพศ:</label>
+             <select name="sex" id="sex">
+                <option value="ชาย" selected>ชาย</option>
+                <option value="หญิง">หญิง</option>
+                <option value="LGBT">LGBT</option>
+             </select>
+             <br>
+
+             <!-- input namber age -->
+            <label for="age">ป้อนอายุ</label>
+            <input type="namber" id="age" maxlength="3"
+            placeholder="เลือกอายุ">
+            <br>
+            <h2>ความสามารถพิเศษ</h2>
+            <br>
+            <input type="checkbox" id="sing" type="sing" value="sing" />sing <br>
+            <input type="checkbox" id="bance" type="bance" value="bance" />dance <br>
+            <input type="checkbox" id="draw a picture" type="draw a picture" value="draw a picture" />draw a picture <br>
+
+            <br><br>
+
+            <!-- button submit -->
+            <button type="submit">บันทึก</button>
+            <button type="cancle">ยกเลิก</button>
+        </form>
+    </div>
+</body>
+</html>

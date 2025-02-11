@@ -1,0 +1,112 @@
+* {
+  /* กำหนด font ให้กับเว็บไซต์ */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* กำหนดรูปแบบ link */
+  text-decoration: none;
+
+  margin:0 ;
+  padding: 0;
+  box-sizing: 0;
+}
+  /* -------tadla style-------*/
+  /*----ตั้งค่าการแสดงผลของตาราง----*/
+.styled-table {
+  width: 100;
+  border-color: collapse;
+  margin: 25px 0 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ตกแต่งตาราง */
+.styled-table th {
+background-color: rgb(73, 28, 177);
+color: rgb(243, 248, 246);
+text-align: center;
+padding: 15px 15px;
+}
+/* ตกแต่งแถวของตาราง */
+.styled-table{
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 12px;
+  /* border: 1 solid */
+}
+.styled-table tr :hover {
+  background-color: rgb(240, 191, 240);
+}
+ /* ตกแต่งเส้นขอบตาราง */
+ .styled-table, .styled-table th, .styled-table td {
+  border: 1px solid rgb(47, 240, 150);
+ }
+
+/* -----menu----- */
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.nav{
+  background-color: #474849;
+  overflow: hidden;
+}
+.nav-con{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 10px;
+  padding: 14px 16px;
+}
+.menu{
+  display: flex;
+  overflow: hidden;
+}
+/* dropdownmenu */
+/* navbar container */
+.navbar{
+  overflow: hidden;
+  background-color: #474849;
+
+}
+.navbar a{
+  float: left;
+  font-size: 14px;
+  color: #ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* dropdown-bnt */
+.dropdow .dropbtn{
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #ffff;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdow:hover .dropbtn{
+  background-color: #f41c1c;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+/* link inside dropdow */
+.dropdow-content a{
+  float: none;
+  clear: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdow-content a:hover{
+  background-color: #ddd;
+}
+.dropdow:hover .dropdow-content{
+  display: block;
+}
